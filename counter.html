@@ -1,0 +1,131 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<title>Mottors counter </title>
+	<meta name="viewport" content="width=device-width , initial-scale=1" >
+	<!-- <link rel="stylesheet" type="text/css" href="node_modules/image.png"> -->
+	<style type="text/css">
+		#bdy 
+		{
+			/*background: linear-gradient(to top left, #33ccff 0%, #cc0066 100%);*/
+			background-image: url('image.PNG'); 
+			height: 500px;
+			width: 400px;
+			border: 2px solid black;
+		}
+		#btn 
+		{
+			
+			border-radius: 5px;
+			/*padding-left: 180px;*/
+			margin-right: 100px;
+			 display: inline-block;
+			  font-size: 15px;
+			  text-align: center;
+			  color: white;
+			  background-color: #9932CC ;
+			  box-shadow: 0 4px #666;
+			  opacity: 1 ;
+
+		}
+
+		#btn:active
+		{
+			  background-color: #33ccff;
+			  box-shadow: 0 5px #666;
+			  transform: translateX(4px);
+		
+		}
+		#btn:hover 
+		{
+			opacity: 0.8;
+		}
+		#txt 
+		{
+			color: #FFFFFF;
+		}
+		#tx 
+		{
+			margin-left: 200px;
+			margin-bottom: 50px;
+			
+		}
+		#inp 
+		{
+			width: 80px;
+		}
+	</style>
+</head>
+<body id="had">
+	<center>
+	<div id="bdy">
+
+		<div id="txt">
+			<h3>Cars:<button id="btn" onclick="add()" >Add</button></h3>
+			<div id="show">
+				<button>-</button>
+				<button>Del</button>
+				<button><input id="num" value="numbers" type="numbers" disabled="read only" placeholder="Num" name=""></button>
+
+			</div>
+		</div>
+
+		<div id="txt">
+			<h3>Bikes:<button id="btn" onclick="add()">Add</button></h3>			
+		</div>
+
+		<div id="txt">
+			<h3>Taxis:<button id="btn" onclick="add()">Add</button></h3>
+		</div>
+		
+
+		<div id="txt">
+			<h4>Trunks:<button id="btn" onclick="add()">Add</button></h4>
+		</div>
+		
+		
+		<!-- <div id="tx">
+			<input id="inp" type="" placeholder="Total" name="">
+			
+			<button id="btn" onclick="add()">Sum</button> -->
+		</div>		
+
+		
+	
+
+			
+	</div>
+	<script type="text/javascript">
+		// function add() 
+		// {
+		// 	var a = [];
+		// 	var b = document.getElementById('show').innerHTML; 
+
+		// 	for (var i = 1; i < b.length; i++) 
+		// 	{
+		// 		Math.floor(Math.random());
+				
+		// 	}
+
+		// 	if (b == 0) 
+		// 	{
+		// 		alert()
+		// 	}
+		// 	num.innerHTML =""
+		// 	// alert(b)
+		// }
+
+		function add() 
+		{
+		show.innerHTML = "";
+			// 	var a = "";		
+			// 	for (var i = 1; i < a.length; i++) 
+			// {
+			// 	Math.floor(Math.random());
+				
+			// }
+		}
+	</script>
+</center>
+</body>
+</html>
